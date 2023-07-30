@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'GeoSlab703 Md BT';
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+input:focus,textarea:focus,button:focus{
+    outline: none;
+}
+
+
+/* service setion styling start */
+
+.section-padding{
+    padding: 80px 0;
+}
+
+.single-member .member-img img{
+    width: 160px;
+    height: 160px;
+}
+
+.section-title{
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.section-title h3{
+    font-size: 28px;
+    color: #1c1917;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 15px 0;
+}
+
+.section-title h3:before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 310px;
+    height: 5px;
+    background-color: #1c1917;
+    content: "";
+    border-radius: 10px;
+}
+
+.section-title h3:after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 290px;
+    height: 5px;
+    background-color: red;
+    content: "";
+    border-radius: 10px;
+}
+
+.section-title p{
+    width: 50%;
+    text-align: left;
+}
+
+.member-list{
+    margin-top: 40px;
+}
+.single-member{
+    text-align: center;
+}
+
+.section-padding .owl-item{
+    margin-right: 20px;
+}
+
+.section-padding .owl-item .member-img img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.member-details h3{
+    font-size: 26px;
+    margin: 20px 0;
+    line-height: 32px;
+    color: #000;
+}
+
+.member-details p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #333;
+    text-align: center;
+
+}
+
+.section-padding .owl-controls{
+    position: absolute;
+    top: -62px;
+    right: 0;
+}
+
+.section-padding .owl-controls .owl-buttons{
+    display: flex;
+}
+
+.section-padding .owl-controls .owl-buttons div{
+    padding: 10px 15px;
+    background: #ccc;
+    margin-right: 4px;
+    transition: .4s;
+}
+
+.section-padding .owl-controls .owl-buttons div:hover{
+    background: #000;
+    color: #fff;
+}
